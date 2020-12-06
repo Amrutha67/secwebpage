@@ -11,26 +11,25 @@
 </head>
 <body class="bgm">
     <nav class="navbar navbar-expand-sm bg-info navbar-dark">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Addition</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="index2.html">Subtraction</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="mul.html">Multiplication</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="mul2.html">Division</a>
-      </li>
-    </ul>
-  </nav>
-  
-     <h1>CALCULATOR</h1>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.php">Addition</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index2.php">Subtraction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mul.php">Multiplication</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mul2.php">Division</a>
+          </li>
+        </ul>
+      </nav>
+       
 
-
-    <p class="ler">Addition</p>
+    
+    <p class="ler">Division</p>
     <table class="table">
         <div class="container">
             <div class="row">
@@ -40,14 +39,14 @@
             <td><input type="text" class="form-control" name="" id="firstnum"></td>
         </tr>
         <tr>
-            <td><p class="paragraph">Second Number</p></td>
+            <td><p class="paragraph" >Second Number</p></td>
             <td><input type="text" class="form-control" name="" id="secnum"></td>
         </tr>
         
                
             <tr>
             <td></td>
-            <td><button onclick="addnumbers()" class="btn btn-primary">Submit</button></td>
+            <td><button onclick="divnumbers()" class="btn btn-primary">Submit</button></td>
         </tr>
         <tr>
             <td></td>
@@ -60,11 +59,11 @@
 </div>
 
     <script>
-        function addnumbers()
+        function divnumbers()
         {
            var firstnum =parseInt(document.getElementById("firstnum").value );
            var secnum =parseInt(document.getElementById("secnum").value );
-           var result= firstnum + secnum ;
+           var result= firstnum / secnum ;
            
            
 document.getElementById("res").innerHTML=result

@@ -13,16 +13,16 @@
     <nav class="navbar navbar-expand-sm bg-info navbar-dark">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">Addition</a>
+        <a class="nav-link" href="index.php">Addition</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index2.html">Subtraction</a>
+        <a class="nav-link" href="index2.php">Subtraction</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="mul.html">Multiplication</a>
+        <a class="nav-link" href="mul.php">Multiplication</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="mul2.html">Division</a>
+        <a class="nav-link" href="mul2.php">Division</a>
       </li>
     </ul>
   </nav>
