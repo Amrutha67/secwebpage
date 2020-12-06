@@ -1,0 +1,13 @@
+.ler{
+    font-size: 50px ;
+    font-color: rgb(163, 66, 82);
+    font-weight: bold;
+}
+
+.bgm{
+    background:moccasin  url("../bgmath2.jpg") no-repeat fixed center;
+}
+.paragraph{
+    font-color:blue;
+    font-size:30px;
+}
